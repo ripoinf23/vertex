@@ -1,5 +1,13 @@
-image: gitpod/workspace-flutter
-
 tasks:
-  - init: flutter doctor && flutter pub get
-    command: flutter run -d chrome
+  - name: Setup & Run
+    init: |
+      flutter config --enable-web
+      cd vertex
+      flutter pub get
+    command: |
+      cd vertex
+      flutter run -d web-server --web-port=8080 --web-hostname=0.0.0.0
+
+ports:
+  - port: 8080
+    onOpen: open-preview
