@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993181176099",
+    "project_id": "vertex-1a797",
+    "storage_bucket": "vertex-1a797.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993181176099:android:8da791046ebce24118fc96",
+        "android_client_info": {
+          "package_name": "com.ripolabs.vertex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1NiOeSlWQ4Yeq4iqe5ffQXcV8Jbeogw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
