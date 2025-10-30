@@ -1,0 +1,5 @@
+image: gitpod/workspace-flutter
+
+tasks:
+  - init: flutter doctor && flutter pub get
+    command: flutter run -d chrome
