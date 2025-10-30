@@ -1,0 +1,19 @@
+{
+    "name": "Flutter Development",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "Dart-Code.flutter"
+            ]
+        }
+    },
+    "postCreateCommand": "cd vertex && flutter pub get",
+    "forwardPorts": [8080],
+    "remoteUser": "root"
+}
